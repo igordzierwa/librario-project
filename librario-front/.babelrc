@@ -1,0 +1,93 @@
+{
+  "presets": [
+
+    ["@babel/env", { "modules": false }],
+  ],
+  "plugins": ["@babel/transform-runtime"],
+  "comments": false,
+}
+
+//{
+//  "presets": [
+//    [
+//      "@vue/app",
+//      {
+//        "targets": {
+//          "ie": "11"
+//        }
+//      }
+//    ]
+//  ],
+//    "plugins": [
+//
+//      'transform-custom-element-classes',
+//      'transform-es2015-shorthand-properties',
+//      'transform-es2015-template-literals',
+//
+//      [
+//        "component",
+//        {
+//          "libraryName": "element-ui",
+//          "styleLibraryName": "theme-chalk"
+//        }
+//      ]
+//    ]
+//}
+
+//{
+//  "presets": [
+//    ["@babel/env", {
+//      "modules": false,
+//      "targets": {
+//        "browsers": ["> 1%", "last 2 versions", "not ie <= 8"]
+//      }
+//    }],
+//
+//  ]
+//}
+
+//
+//{
+//  "presets": [["@babel/env", {
+//    "modules": false,
+//    "targets": {
+//      "browsers": ["> 1%", "last 2 versions", "not ie <= 8"]
+//    }
+//  }]],
+//  "plugins": [
+//    [
+//      "component",
+//      {
+//        "libraryName": "element-ui",
+//        "styleLibraryName": "theme-chalk"
+//      }
+//    ]
+//  ]
+//}
+
+//{
+//  "presets": [
+//    [
+//      "@babel/env",
+//      {
+//        "targets": {
+//          "edge": "17",
+//          "firefox": "60",
+//          "chrome": "67",
+//          "safari": "11.1",
+//          "ie": '11'
+//        },
+//        "useBuiltIns": "usage",
+//      }
+//    ]
+//  ],
+//    "plugins": [
+//      [
+//        "component",
+//        {
+//          "libraryName": "element-ui",
+//          "styleLibraryName": "theme-chalk"
+//        }
+//      ]
+//    ]
+//}
